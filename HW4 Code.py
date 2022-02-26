@@ -226,7 +226,7 @@ energyvsrmsd(decoys_2reb, native)
 
 
 print(score(native))
-decoys_2reb2 = getDecoys(seq_pose, 5, 10000)
+decoys_2reb2 = getDecoys(seq_pose, 100, 500000)
 energyvsrmsd(decoys_2reb2, native)
 
 
